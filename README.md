@@ -9,25 +9,28 @@ To create and design an android application Send SMS using Intent using Android 
 Android Studio App
 
 ## ALGORITHM:
-
 Step 1: Open Android Stdio and then click on File -> New -> New project.
-Step 2: Then type the Application name as “ex04″ and click Next. 
-Step 3: Then select the Empty Activity and click Next. Finally click Finish.
-Step 4: Design layout in activity_main.xml.
-Step 5: Send SMS and Display details give in MainActivity file.
-Step 6: Launch an emulator and run the application.
+
+Step 2: Then type the Application name as “ex.no.4″ and click Next.
+
+Step 3: Then select the Minimum SDK as shown below and click Next.
+
+Step 4: Then select the Empty Activity and click Next. Finally click Finish.
+
+Step 5: Design layout in activity_main.xml.
+
+Step 6: Send SMS and Display details give in MainActivity file.
+
+Step 7: Save and run the application.
 
 ## PROGRAM:
-
-```
-/*
+```java
 Program to create and design an android application Send SMS using Intent.
 Developed by: R.Surya
 Registeration Number : 212220230052
-*/
 ```
 ### MainActivity.java
-```
+```java
 package com.example.expno4;
 import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
@@ -54,7 +57,7 @@ public class MainActivity extends AppCompatActivity {
 }
 ```
 ### activity_main.xml
-```
+```java
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
@@ -78,8 +81,5 @@ public class MainActivity extends AppCompatActivity {
 ![image](https://user-images.githubusercontent.com/75236145/168286314-c1ec23f9-bbe9-4ce3-bc59-27ff407b4edf.png)
 ![image](https://user-images.githubusercontent.com/75235293/167292352-391d7e7b-4121-479d-8f8f-345eb1ff342f.png)
 
-
-
 ## RESULT:
-
 Thus a Simple Android Application create and design an android application Send SMS using Intent using Android Studio is designed and executed successfully.
